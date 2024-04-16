@@ -1,0 +1,142 @@
+1. What is the output of the following code?
+var = 2
+var = 3
+print(var)
+ a>3 
+2. Which of the following variable names are illegal in Python?  (Select three answers)
+Based on these rules:
+
+my_var is legal.
+m is legal.
+101 is illegal because it starts with a digit.
+averylongVariablename is legal.
+m101 is legal.
+m 101 is illegal because it contains whitespace.
+Del is legal, but it's not advisable to use built-in names such as del as variable names because they may lead to confusion or unexpected behavior.
+del is illegal because it is a keyword in Python.
+So, the three illegal variable names are:
+
+101
+m 101
+del
+
+3.What is the output of the following snippet?
+a = '1'
+b = "1"
+print(a + b)
+ a>11
+
+
+1. The \n digraph forces the print() function to:
+ a> break the output line
+
+2. The meaning of the keyword parameter is determined by:
+ a>the argument's name specified along with its value
+
+3. The value twenty point twelve times ten raised to the power of eight should be written as:
+ a>20.12E8
+
+4.The 0o prefix means that the number after it is denoted as:
+ a>octal
+
+5. The ** operator:
+ a> performs exponentiation
+
+6.The result of the following division: 1/1
+ a> is equal to 1.0
+ # / operator isreturns a floating-point value!!!
+ # // operator, rounds down the result and returns an integer number.
+
+7.Which of the following statements are true?  (Select two answers)
+a.The result of the / operator is always an integer value.
+b.Addition precedes multiplication.
+c.The ** operator uses right-sided binding.
+d.The right argument of the % operator cannot be zero.
+ a> c, d 
+ #** operator uses right-sided binding, which means the expression 2**2**3 is evaluated from right to left: 2**3 = 8, and 2**8 = 256.
+
+8.Left-sided binding determines that the result of the following expression:
+1 // 2 * 3
+ a> 0 # 1//2 results in 0(performs integer division), truncating any fractional part. 0∗3 = 0 
+
+9.Which of the following variable names are illegal?
+a.TRUE: This variable name is legal as it contains only uppercase letters.
+b.true: This variable name is legal as it contains only lowercase letters.
+c.and: This variable name is illegal because and is a reserved keyword in Python and cannot be used as a variable name.
+d.True: This variable name is legal. However, it's not advisable to use built-in names such as True as variable names because they may lead to confusion or unexpected behavior.
+ a> c,d 
+
+10.The print() function can output values of:
+ a> any number of arguments (including zero)
+
+11.What is the output of the following snippet?
+x = 1
+y = 2
+z = x
+x = y
+y = z
+print(x, y)
+ a> 2 1 #x contains 2 because it was assigned the value of y. y contains 1 because it was assigned the original value of x stored in z.
+
+ *12. What is the output of the following snippet if the user enters two lines containing 2 and 4 respectively?
+ x = input()
+ y = input()
+ print(x + y)
+  a> 24 # input() function reads the arguments entered by the user (2 and 4 respectively) and converts them to strings!
+ 
+ 13. What is the output of the following snippet if the user enters two lines containing 2 and 4 respectively?
+ x = int(input())
+ y = int(input())
+ x = x // y
+ y = y // x
+ print(y)
+  a> c.  #2//4 = 0. y=4, x=0 then 4//0, result in error. because the // operator cannot accept 0 as its right operand. The program is terminated.
+
+14. What is the output of the following snippet if the user enters two lines containing 2 and 4 respectively?
+ x = int(input())
+ y = int(input())
+ x = x / y
+ y = y / x
+  a> 8. x= 2/4 = 0.5. y= 4/0.5
+
+15. What is the output of the following snippet if the user enters two lines containing 11 and 4 respectively?
+x = int(input())
+y = int(input())
+x = x % y
+x = x % y
+y = y % x
+print(y)
+ a> 1 
+
+ 16. What is the output of the following snippet if the user enters two lines containing 3 and 6 respectively?
+ x = input()
+ y = int(input())
+ print(x * y)
+ a> 333333 # * operator with a string and an integer n, it performs string replication, repeating the string a certain number of times.
+     In this case, it will replicate the string x by y times.
+
+17.What is the output of the following snippet?
+z = y = x = 1
+print(x, y, z, sep='*')
+a> 1*1*1 # Each variable (x, y, and z) is set to 1, and when printed with the sep argument set to '*', they are displayed with asterisks between them.
+
+18. What is the output of the following snippet?
+y = 2 + 3 * 5.
+print(Y)
+ a> error #due to Y is not y. #correct print(y), then 17.0
+
+19. What is the output of the following snippet?
+x = 1 / 2 + 3 // 3 + 4 ** 2
+print(x)
+ a> 17.5 
+#Exponentiation (**): Calculate 4 ** 2, which equals 16.
+#Division (/): Calculate 1 / 2, which equals 0.5.
+#Floor Division (//): Calculate 3 // 3, which equals 1.
+#Addition (+): Sum up the results from the previous steps: 0.5 + 1 + 16
+
+20.What is the output of the following snippet if the user enters two lines containing 2 and 4 respectively?
+x = int(input())
+y = int(input())
+print(x + y)
+a>6 
+
