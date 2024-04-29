@@ -1,16 +1,16 @@
-#def devnet():
-#    """prints simple function""" # ''' is same as """
-#    print('Simple function')
-#devnet()
+class Calc:
+    def __init__(self, a, b):
+        self.x = a
+        self.y = b
 
-def sub(arg1, arg2):
-    result = arg1 - arg2
-    return result
+    def plus(self):
+        return self.x + self.y
 
-sub(arg2=15, arg1=10)
+    def minus(self):
+        return self.x - self.y
 
-def hello(*args):
-    for arg in args:
-        print("Hello", arg, "!")
+    def multiply(self):
+        return self.x * self.y
 
-hello('Caleb', 'Sydney', 'Savannah')
+    def divide(self):
+        return self.x / self.y
