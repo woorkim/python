@@ -1,3 +1,4 @@
+30
 #def message():
 #    print("Enter a value: ")
 #print("We start here.")
@@ -49,4 +50,5 @@ def hi():
 def hi():
     print("hi")
 hi(5)
+print()
 
