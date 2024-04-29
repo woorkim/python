@@ -37,7 +37,44 @@ print(2 not in my_list)  # outputs: False
 print()
 
 #Q1
+list_1 = ["A", "B", "C"]
+list_2 = list_1
+list_3 = list_2
+del list_1[0]
+del list_2[0]
+print(list_3)
+print()
 
+#Q2
+list_1 = ["A", "B", "C"]
+list_2 = list_1
+list_3 = list_2
+del list_1[0]
+del list_2
+print(list_3)
+print()
 
+#Q3
+list_1 = ["A", "B", "C"]
+list_2 = list_1
+list_3 = list_2 
+del list_1[0]
+del list_2[:]
+print(list_3)
+print()
 
+#Q4
+list_1 = ["A", "B", "C"]
+list_2 = list_1[:]
+list_3 = list_2[:]
+del list_1[0]
+del list_2[0]
+print(list_3)
+print()
 
+#5 Insert in or not in instead of ??? so that the code outputs the expected result.
+my_list = [1, 2, "in", True, "ABC"]
+print(1 ??? my_list)  # outputs True
+print("A" ??? my_list)  # outputs True
+print(3 ??? my_list)  # outputs True
+print(False ??? my_list)  # outputs False
